@@ -22,6 +22,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = UcimoMaui.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[C:/Users/PC/source/repos/UcimoMaui/UcimoMaui/Login.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UcimoMaui.Login.xaml
+build_metadata.AdditionalFiles.TargetPath = Login.xaml
+build_metadata.AdditionalFiles.RelativePath = Login.xaml
+
 [C:/Users/PC/source/repos/UcimoMaui/UcimoMaui/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UcimoMaui.MainPage.xaml

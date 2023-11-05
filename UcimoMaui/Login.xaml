@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UcimoMaui.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Image 
+               Source="Reasources/Images/NANINA.png"
+               />
+            <Entry Placeholder="Korisničko ime" x:Name="KorisnickoUnos" />
+            <Entry Placeholder="Šifra" x:Name="SifraUnos" IsPassword="True"/>
+
+            <Entry Placeholder="Ime i prezime" x:Name="ImePrezime" />
+            <Entry Placeholder="Korisničko ime" x:Name="KorisnickoRegistracija" />
+            <Entry Placeholder="Email" x:Name="EmailUnos" />
+            <Entry Placeholder="Šifra" x:Name="SifraRegistracija" IsPassword="True" />
+            <Button Text="Potvrdite" Clicked="OnRegisterClicked" />
+
+            <Button Text="Prijava" Clicked="PrijavaKlik" />
+            <Button Text="Registracija" Clicked="RegistracijaKlik" />
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
